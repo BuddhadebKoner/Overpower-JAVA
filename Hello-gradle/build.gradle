@@ -1,0 +1,7 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+// Main class without a package name
+mainClassName = 'Main'
