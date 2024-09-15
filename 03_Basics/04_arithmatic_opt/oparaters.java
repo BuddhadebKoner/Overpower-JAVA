@@ -11,6 +11,7 @@ public class oparaters {
       System.out.print("Enter Third number : ");
       int thirdNum = input.nextInt();
       int threeSum = firstNum + secondNum + thirdNum;
+      input.close();
 
       System.out.println("The sum of three number is : " + threeSum);
    }

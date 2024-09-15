@@ -6,6 +6,7 @@ public class swap_two_number {
       System.out.println("Enter Two number : ");
       int firstNum = input.nextInt();
       int secondNum = input.nextInt();
+      input.close();
       System.out.println("Before Swaping Two numbers are : FirstNum = " + firstNum + " SecondNum = " + secondNum);
       int thirdNum = firstNum;
       firstNum = secondNum;

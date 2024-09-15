@@ -7,6 +7,7 @@ public class oparater01 {
       System.out.print("Enter two numbers: ");
       a = input.nextInt();
       b = input.nextInt();
+      input.close();
       sum = a + b;
       sub = a - b;
       mul = a * b;
