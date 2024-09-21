@@ -3,7 +3,7 @@ public class myCar {
    // int numOfwheels;
    // String color;
    // float maxSpeed;
-   float currentFule
+   float currentFule;
 
    // Constructor
    public void drive() {
