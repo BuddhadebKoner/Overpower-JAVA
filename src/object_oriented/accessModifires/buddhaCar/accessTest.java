@@ -12,6 +12,6 @@ public class accessTest {
         buddhaCar car2 = new buddhaCar("Blue", 50, 250, "BMW");
         System.out.println(car2);
        // we can access  car.costOFcar
-        System.out.println("Cost of car: " + car2.costOFcar);
+        System.out.println(STR."Cost of car: \{car2.costOFcar}");
     }
 }

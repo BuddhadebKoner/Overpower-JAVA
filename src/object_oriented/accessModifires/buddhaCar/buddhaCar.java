@@ -12,7 +12,7 @@ public class buddhaCar {
         this.color = "White";
         this.currentFule = 0;
         this.maxSpeed = 0;
-        this.brand = "Aulto";
+        this.brand = "Auto";
     }
 
   public buddhaCar(String color, float currentFule, float maxSpeed, String brand) {
@@ -24,11 +24,6 @@ public class buddhaCar {
 
     @Override
     public String toString() {
-        return "buddhaCar{" +
-                "color='" + color + '\'' +
-                ", currentFule=" + currentFule +
-                ", maxSpeed=" + maxSpeed +
-                ", brand='" + brand + '\'' +
-                '}';
+        return STR."buddhaCar{color='\{color}', currentFule=\{currentFule}, maxSpeed=\{maxSpeed}, brand='\{brand}'}";
     }
 }
