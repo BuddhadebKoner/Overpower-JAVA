@@ -34,7 +34,6 @@ public class deletion {
          }
          newNumbers[k++] = numbers[i];
       }
-
       return newNumbers;
    }
 }
