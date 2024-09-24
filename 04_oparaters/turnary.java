@@ -7,6 +7,7 @@ public class turnary {
       int num1 = sc.nextInt();
       System.out.println("Enter second number : ");
       int num2 = sc.nextInt();
+      sc.close();
 
       // if (num1 > num2) {
       // System.out.println(num1 + " is greater");

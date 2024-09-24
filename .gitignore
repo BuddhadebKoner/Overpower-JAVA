@@ -12,6 +12,7 @@
 
 # VS Code
 .vscode/
+out/
 
 # Maven
 target/
